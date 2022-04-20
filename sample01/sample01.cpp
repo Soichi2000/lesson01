@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 int main() {
-    vector<string> msg {"Hello", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<string> msg {"Hello", "World", "from", "VS", "and the C++ extension!"};
     for (const string& word : msg) {
        cout << word << " ";
     }
